@@ -15,3 +15,5 @@ class Api(APIView):
 
     def delete(self,request):
         return Response("delete_method")
+
+
